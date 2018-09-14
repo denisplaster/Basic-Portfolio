@@ -31,7 +31,7 @@ li {
 }
 
 #nav a {
-    font-size: 1.6em;
+    font-size: 1.6vw;
     text-transform: uppercase;
     font-weight: bold;
     font-family:century gothic;
@@ -60,22 +60,23 @@ li {
     margin-left: 40px;
 }
 
-footer {
+/* footer {
     background: #614e4e;
     width: 100%;
     padding: 25px;
     clear: both;
     text-align: center;
     margin:auto;
-}
+} */
 
-#body {
+#container {
     background: #ebebeb;
-    height: 600px;
-    width: 100%;
+    min-height: 100%;
+    position: relative;
+    /* width: 100%; */
+    padding: 10px;
+    /* padding-bottom: 60px; */
     clear: both;
-    margin:auto;
-    border-bottom: 2px #262626;
 }
 
 .bio {
@@ -90,15 +91,16 @@ footer {
 
 p {
     font-family: 'Raleway', sans-serif;
-    font-size: 28px;
+    font-size: 2vw;
 }
 
 img {
     margin:auto;
-    
+    overflow: scroll;
+
 }
 
-.center {
+center {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -108,6 +110,17 @@ img {
 .contactInfo {
     font-family: 'Raleway', sans-serif;
     font-size: 3em;
+
+}
+
+#footer {
+    position: fixed;
+    bottom:0;
+    width:100%;
+    height:60px;
+    background: #614e4e;
+    text-align: center;
+    
 
 }
        
